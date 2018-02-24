@@ -1,3 +1,6 @@
+contracts/
+templates/
+
 # Logs
 logs
 *.log
