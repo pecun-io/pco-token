@@ -3,6 +3,13 @@
 This is a [node.js] project containint the PCO token and a number of automated tests to confirm the functionality of the contract.
 
 
+### Prerequisits
+
+In Windows you need to install build tools:
+```sh
+$ npm install --global --production windows-build-tools 
+```
+
 ### Installation
 
 This project requires [Node.js](https://nodejs.org/) to run.
