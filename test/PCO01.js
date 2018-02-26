@@ -66,6 +66,15 @@ describe('PCO01 - Tests', () => {
         assert.equal(parseInt(balanceOwner), expTotalSupply-sendAmount);
     });
 
+    /*
+    it('who is owner', async () => {
+        let sendAmount = 10;
+        let owner = await inbox.methods.owner().call();
+        console.log('owner: ' + owner);
+        assert.equal('a', 'a');
+        //assert.equal(parseInt(balanceOwner), expTotalSupply-sendAmount);
+    });*/
+
 /*    it('try overspend 20 tokens from user1 to user2', async () => {
         let sendAmount = 10;
         await inbox.methods.transfer(accountUser1, sendAmount).send({ from: accountOwner });
