@@ -1,4 +1,4 @@
-pragma solidity ^0.4.18;
+pragma solidity ^0.4.16;
 //import "./zeppelin/ownership/Ownable.sol";
 
 interface tokenRecipient { function receiveApproval(address _from, uint256 _value, address _token, bytes _extraData) public; }
@@ -6,7 +6,8 @@ interface tokenRecipient { function receiveApproval(address _from, uint256 _valu
 /**
  * Version 01 of the PCO token
  */
-contract PCO01 {//is Ownable {
+ 
+contract PCO01 { 
     // Public variables of the token
     string public constant symbol = "PCO01";
     string public constant name =  "PCO Test 01";
@@ -32,7 +33,7 @@ contract PCO01 {//is Ownable {
      */
     function PCO01 () public {
         balanceOf[msg.sender] = totalSupply;
-        owner = msg.sender;
+        //owner = msg.sender;
     }
 
     /**

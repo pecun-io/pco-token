@@ -4,10 +4,10 @@ const Web3 = require('web3');
 const Compiler = require('../compile');
  
 const provider = ganache.provider();
-const web3 = new Web3(provider);
- 
+const web3 = new Web3(provider); 
 
 const { interface, bytecode } = Compiler.compile('PCO01.sol', 'PCO01');
+//const { interface, bytecode } = Compiler.compile('SimpleToken.sol', 'SimpleToken');
  
 
 let accounts,
